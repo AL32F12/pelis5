@@ -62,7 +62,6 @@ function ListarPeliculas()
 			 ListarPeliculas();
 		
 		$.mobile.changePage("#page2");
-		 ; 
 		
 		 });
 		  $("#sid").tap (function () {
