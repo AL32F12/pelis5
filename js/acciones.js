@@ -3,7 +3,7 @@ function Buscargenero(gene)
 	datos="Genero="+gene;
  $.ajax({
  type:"POST",
-	 url:"http://192.168.1.192/DAMO/consulta.php",
+	 url:"http://192.168.1.192/DAMO/consultabuscar.php",
 data: datos
  }).done (function(msg){
 	 alert(msg)
