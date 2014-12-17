@@ -57,18 +57,18 @@ function ListarPeliculas()
 
  $(document).ready(function(e){
 	 document.addEventListener("deviceready",function(){
-		 
-		  $("#sid").tap (function () {
-			  alert($('#genero').val());
-			Buscargenero($('#genero').text()); 
-		
-		 });
-		 
-		  $("#Listado").tap (function () {
+		   $("#Listado").tap (function () {
 			
 			 ListarPeliculas();
 		
 		$.mobile.changePage("#page2");
+		 ; 
+		
+		 });
+		  $("#sid").tap (function () {
+			  alert($('#genero').val());
+			Buscargenero($('#genero').text())
+		
 		
 	 });
  });
