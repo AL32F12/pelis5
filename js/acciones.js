@@ -67,7 +67,7 @@ function ListarPeliculas()
 		 });
 		  $("#sid").tap (function () {
 			  alert($('#genero').val());
-			Buscargenero($('#genero').text())
+			Buscargenero($('#genero').val())
 		
 		
 	 });
