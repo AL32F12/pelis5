@@ -59,7 +59,8 @@ function ListarPeliculas()
 	 document.addEventListener("deviceready",function(){
 		 
 		  $("#sid").tap (function () {
-			Buscargenero($('#genero').val()); 
+			  alert($('#genero').val());
+			Buscargenero($('#genero').text()); 
 		
 		 });
 		 
